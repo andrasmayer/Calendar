@@ -1,0 +1,50 @@
+.calendar{
+    margin:0 auto;
+    width: 455px;
+}
+.calendar .calendar-controls{
+    padding:0.5rem;
+
+}
+.calendar .calendar-controls button{
+    border:none;
+    background-color: #7f9699;
+    color:white;
+    font-size:23px;
+    width:35px;
+    height:35px;
+    font-weight:bold;
+}
+
+.calendar .changeStatus {
+    min-width:35px;
+    font-size:12px;
+    height: 30px;
+}
+.calendar .week{
+    background-color:#75c0c9;
+    text-align:right;
+}
+.calendar .short{
+    padding-right:0.8rem;
+}
+.calendar .week .day{
+    display:inline-block;
+    min-width:65px;
+    background-color:white;
+
+    padding:3px;
+    
+}
+.calendar .activeDay{
+    height:56%;
+    background-color:#b5f5d7;
+}
+.calendar .inactiveDay{
+    height:56%;
+    background-color:#f7a1a1;
+}
+
+.btn:focus{
+box-shadow: none !important;
+}
