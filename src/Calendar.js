@@ -81,10 +81,10 @@ export class Calendar{
     setDateStatus(e){
         e.userId = this.userId == null ? null : this.userId
         this.data[e.date] = {checked:e.checked, userId:e.userId}
-        this.upload(this.data)
+        this.upload()
     }
-    upload(data){
-        console.log(  data )
+    upload(){
+        console.log(  this.data )
     }
     download(){
         //Ide jön az endpoint lekérés
